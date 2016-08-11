@@ -8,7 +8,7 @@
     <title>voting</title>
   </head>
   <body>
-    <div id="over18">
+    <!-- <div id="over18">
       <p>Here are your choices:
          -Reagan
          -coolidge
@@ -17,8 +17,25 @@
          -eisenhower</p>
     </div>
     <div id="under18">
-      <p>Fuck off</p>
-    </div>
+      <p>Fuck off</p> -->
+    <!-- </div> -->
+    <form id="voting">
+      <label for="age">Age</label>
+      <input id="age" type="text">
+      <select class="form-control" id="choice">
+        <option value="pro-choice">Pro-choice</option>
+        <option value="anti-abortion">Anti-abortion</option>
+      </select>
+
+
+      <label for="ideology">Ideology</label>
+      <select class="form-control" id="ideology">
+        <option value="liberal">Liberal</option>
+        <option value="conservative">Conservative</option>
+      </select>
+
+      <button type="submit" class="btn">Calculate who i'm voting for</button>
+    </form>
 
   </body>
 </html>
